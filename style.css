@@ -5,7 +5,7 @@
   --text-primary: #292929ff;
   --text-sidebar: #292929ff;
   --text-muted: #8d99ae;
-  --accent-color: #4ea8de;
+  --accent-color: #4db0ee;
 }
 
 * {
@@ -146,6 +146,15 @@ body {
 
 .card p {
   font-size: 1.1rem;
+}
+
+.card a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 .image-gallery {
